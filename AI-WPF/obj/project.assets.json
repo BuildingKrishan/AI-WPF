@@ -1,0 +1,323 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows10.0.22621": {
+      "Microsoft.Windows.Imaging/0.2.126": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.Management": "0.2.126"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Windows.Imaging.props": {},
+          "buildTransitive/Microsoft.Windows.Imaging.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/Microsoft.Windows.Imaging.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-arm64/native/magerapi.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-arm64/native/parapi.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-arm64/native/ps-onnxruntime.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-arm64/native/segapi.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/native/Microsoft.Windows.Imaging.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/magerapi.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/parapi.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/ps-onnxruntime.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/segapi.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          }
+        }
+      },
+      "Microsoft.Windows.Management/0.2.126": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Windows.Management.props": {},
+          "buildTransitive/Microsoft.Windows.Management.targets": {}
+        }
+      },
+      "Microsoft.Windows.Vision.TextRecognition/0.2.126": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.Management": "0.2.126"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Vision.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Vision.Projection.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Windows.Vision.TextRecognition.props": {},
+          "buildTransitive/Microsoft.Windows.Vision.TextRecognition.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/Microsoft.Windows.Vision.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-arm64/native/oneocr.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-arm64/native/onnxruntime.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/native/Microsoft.Windows.Vision.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/oneocr.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/onnxruntime.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          }
+        }
+      },
+      "AvalonEdit/6.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Windows.Imaging/0.2.126": {
+      "sha512": "cwpWQxpl3Wk1MRif2jzG4efLiyWWMGWKXDkfNmAAktpus3cWxLSE0hBT9iNQ6XbE1dJ8XA+gfKogalbHDbVWzA==",
+      "type": "package",
+      "path": "microsoft.windows.imaging/0.2.126",
+      "files": [
+        ".nupkg.metadata",
+        "build/Microsoft.Windows.Imaging.props",
+        "build/Microsoft.Windows.Imaging.targets",
+        "build/native/Microsoft.Windows.Imaging.props",
+        "build/native/Microsoft.Windows.Imaging.targets",
+        "buildTransitive/Microsoft.Windows.Imaging.props",
+        "buildTransitive/Microsoft.Windows.Imaging.targets",
+        "buildTransitive/native/Microsoft.Windows.Imaging.props",
+        "buildTransitive/native/Microsoft.Windows.Imaging.targets",
+        "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll",
+        "microsoft.windows.imaging.0.2.126.nupkg.sha512",
+        "microsoft.windows.imaging.nuspec",
+        "models/mager.onnxe",
+        "models/par.onnxe",
+        "models/seg.onnxe",
+        "runtimes/win10-arm64/native/Microsoft.Windows.Imaging.dll",
+        "runtimes/win10-arm64/native/magerapi.dll",
+        "runtimes/win10-arm64/native/parapi.dll",
+        "runtimes/win10-arm64/native/ps-onnxruntime.dll",
+        "runtimes/win10-arm64/native/segapi.dll",
+        "runtimes/win10-x64/native/Microsoft.Windows.Imaging.dll",
+        "runtimes/win10-x64/native/magerapi.dll",
+        "runtimes/win10-x64/native/parapi.dll",
+        "runtimes/win10-x64/native/ps-onnxruntime.dll",
+        "runtimes/win10-x64/native/segapi.dll",
+        "winmd/Microsoft.Windows.Imaging.winmd"
+      ]
+    },
+    "Microsoft.Windows.Management/0.2.126": {
+      "sha512": "xLhH7jisgzE7QEoMTGlCd01uG+KzGwXoTPpzAPWfZy6I6HjjyMoW6BsnLTPT2uDwueJxHW+iSSKIC7c40RcCYg==",
+      "type": "package",
+      "path": "microsoft.windows.management/0.2.126",
+      "files": [
+        ".nupkg.metadata",
+        "build/Microsoft.Windows.Management.props",
+        "build/Microsoft.Windows.Management.targets",
+        "build/native/Microsoft.Windows.Management.props",
+        "build/native/Microsoft.Windows.Management.targets",
+        "buildTransitive/Microsoft.Windows.Management.props",
+        "buildTransitive/Microsoft.Windows.Management.targets",
+        "buildTransitive/native/Microsoft.Windows.Management.props",
+        "buildTransitive/native/Microsoft.Windows.Management.targets",
+        "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll",
+        "microsoft.windows.management.0.2.126.nupkg.sha512",
+        "microsoft.windows.management.nuspec",
+        "winmd/Microsoft.Windows.Management.winmd"
+      ]
+    },
+    "Microsoft.Windows.Vision.TextRecognition/0.2.126": {
+      "sha512": "X2wr88y7tkO+5uG1lbQxgXGb/lRIGkLyqBRgUC50/8NaqLZMIqDvPsmcd0f770LanTOltly0wNB6X2nfTuiCPA==",
+      "type": "package",
+      "path": "microsoft.windows.vision.textrecognition/0.2.126",
+      "files": [
+        ".nupkg.metadata",
+        "build/Microsoft.Windows.Vision.TextRecognition.props",
+        "build/Microsoft.Windows.Vision.TextRecognition.targets",
+        "build/native/Microsoft.Windows.Vision.TextRecognition.props",
+        "build/native/Microsoft.Windows.Vision.TextRecognition.targets",
+        "buildTransitive/Microsoft.Windows.Vision.TextRecognition.props",
+        "buildTransitive/Microsoft.Windows.Vision.TextRecognition.targets",
+        "buildTransitive/native/Microsoft.Windows.Vision.TextRecognition.props",
+        "buildTransitive/native/Microsoft.Windows.Vision.TextRecognition.targets",
+        "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Vision.Projection.dll",
+        "microsoft.windows.vision.textrecognition.0.2.126.nupkg.sha512",
+        "microsoft.windows.vision.textrecognition.nuspec",
+        "models/oneocr.onemodel",
+        "runtimes/win10-arm64/native/Microsoft.Windows.Vision.dll",
+        "runtimes/win10-arm64/native/oneocr.dll",
+        "runtimes/win10-arm64/native/onnxruntime.dll",
+        "runtimes/win10-x64/native/Microsoft.Windows.Vision.dll",
+        "runtimes/win10-x64/native/oneocr.dll",
+        "runtimes/win10-x64/native/onnxruntime.dll",
+        "winmd/Microsoft.Windows.Vision.winmd"
+      ]
+    },
+    "AvalonEdit/6.3.0": {
+      "type": "project",
+      "path": "E:\\WPF apps\\TextEditor\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj",
+      "msbuildProject": "E:\\WPF apps\\TextEditor\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows10.0.22621": [
+      "AvalonEdit >= 6.3.0",
+      "Microsoft.Windows.Imaging >= 0.2.126",
+      "Microsoft.Windows.Vision.TextRecognition >= 0.2.126"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kribansal.REDMOND\\source\\repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
+      "projectName": "AI-WPF",
+      "projectPath": "C:\\Users\\kribansal.REDMOND\\source\\repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
+      "packagesPath": "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kribansal.REDMOND\\source\\repos\\AI-WPF\\AI-WPF\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kribansal.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows10.0.22621.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://microsoft.pkgs.visualstudio.com/ProjectOxford/_packaging/windows-aifabric/nuget/v3/index.json": {},
+        "https://microsoft.pkgs.visualstudio.com/_packaging/OSClient/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows10.0.22621": {
+          "targetAlias": "net6.0-windows10.0.22621.0",
+          "projectReferences": {
+            "E:\\WPF apps\\TextEditor\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj": {
+              "projectPath": "E:\\WPF apps\\TextEditor\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows10.0.22621": {
+        "targetAlias": "net6.0-windows10.0.22621.0",
+        "dependencies": {
+          "Microsoft.Windows.Imaging": {
+            "target": "Package",
+            "version": "[0.2.126, )"
+          },
+          "Microsoft.Windows.Vision.TextRecognition": {
+            "target": "Package",
+            "version": "[0.2.126, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.22621.31, 10.0.22621.31]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "foiKH3WfvSaOnjHSrA76ckm9jfy9XTe1c/UvQJ3jfF4RrbAJO3avsAd1mZ2+zJ6eplJnA5gz9ntCvYMs/GKLug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kribansal.REDMOND\\source\\repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.imaging\\0.2.126\\microsoft.windows.imaging.0.2.126.nupkg.sha512",
+    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.management\\0.2.126\\microsoft.windows.management.0.2.126.nupkg.sha512",
+    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.vision.textrecognition\\0.2.126\\microsoft.windows.vision.textrecognition.0.2.126.nupkg.sha512",
+    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AI-WPF", "AI-WPF\AI-WPF.csproj", "{67A6B725-3601-4CF3-BB25-41D73DC02ED9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.AvalonEdit", "E:\WPF apps\TextEditor\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj", "{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Debug|x64.ActiveCfg = Debug|x64
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Debug|x64.Build.0 = Debug|x64
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Release|x64.ActiveCfg = Release|x64
+		{67A6B725-3601-4CF3-BB25-41D73DC02ED9}.Release|x64.Build.0 = Release|x64
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Debug|x64.Build.0 = Debug|Any CPU
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Release|x64.ActiveCfg = Release|Any CPU
+		{DEE4C5BF-5827-4643-9FAA-654A79D4AD68}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2E5220D-1805-496C-A861-B69B9FF6B433}
+	EndGlobalSection
+EndGlobal
