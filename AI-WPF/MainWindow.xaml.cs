@@ -28,10 +28,10 @@ namespace AI_WPF
             frame.Navigate(new Uri("TextView.xaml", UriKind.Relative));
         }
 
-        private void Button2_Click(object sender, RoutedEventArgs e)
+        private void ImageOCR_Click(object sender, RoutedEventArgs e)
         {
-            //frame.Navigate(new Uri("TextView.xaml", UriKind.Relative));
-            var textRecognizer = new Microsoft.Windows.Imaging.MagicEraser();
+            frame.Navigate(new Uri("ImageOCR.xaml", UriKind.Relative));
+            //var textRecognizer = new Microsoft.Windows.Imaging.MagicEraser();
 
         }
     }

@@ -56,3 +56,6 @@ C:\Users\kribansal.REDMOND\source\repos\AI-WPF\AI-WPF\obj\x64\Debug\net6.0-windo
 C:\Users\kribansal.REDMOND\source\repos\AI-WPF\AI-WPF\obj\x64\Debug\net6.0-windows10.0.22621.0\AI-WPF.pdb
 C:\Users\kribansal.REDMOND\source\repos\AI-WPF\AI-WPF\obj\x64\Debug\net6.0-windows10.0.22621.0\AI-WPF.genruntimeconfig.cache
 C:\Users\kribansal.REDMOND\source\repos\AI-WPF\AI-WPF\obj\x64\Debug\net6.0-windows10.0.22621.0\ref\AI-WPF.dll
+C:\Users\kribansal.REDMOND\source\repos\AI-WPF\AI-WPF\obj\x64\Debug\net6.0-windows10.0.22621.0\ImageOCR.g.cs
+C:\Users\kribansal.REDMOND\source\repos\AI-WPF\AI-WPF\obj\x64\Debug\net6.0-windows10.0.22621.0\ImageOCR.baml
+C:\Users\kribansal.REDMOND\source\repos\AI-WPF\AI-WPF\obj\x64\Debug\net6.0-windows10.0.22621.0\AI-WPF.sourcelink.json

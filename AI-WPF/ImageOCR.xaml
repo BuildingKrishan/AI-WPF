@@ -1,0 +1,29 @@
+﻿<Page x:Class="AI_WPF.ImageOCR"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AI_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ImageOCR">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <!-- Image display area -->
+        <Image Name="imgDisplay" Width="250" Grid.Row="0" Grid.Column="0" Height="250" Margin="30,50,30,30" />
+
+        <!-- Button to upload image -->
+        <Button Content="Upload Image" Grid.Row="1" Grid.Column="0" Click="UploadImage_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+
+        <!-- Optional: Add other UI elements as needed -->
+        <TextBox Name="OutputBox" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Text="Extracted Text" FontSize="12" FontWeight="Bold" Margin="20,20,20,20" />
+    </Grid>
+</Page>
