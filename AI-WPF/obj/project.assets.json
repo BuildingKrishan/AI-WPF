@@ -128,6 +128,66 @@
           "Microsoft.WindowsDesktop.App"
         ]
       }
+    },
+    "net6.0-windows10.0.22621/win-x64": {
+      "Microsoft.Windows.Imaging/0.2.126": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.Management": "0.2.126"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Windows.Imaging.props": {},
+          "buildTransitive/Microsoft.Windows.Imaging.targets": {}
+        }
+      },
+      "Microsoft.Windows.Management/0.2.126": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Windows.Management.props": {},
+          "buildTransitive/Microsoft.Windows.Management.targets": {}
+        }
+      },
+      "Microsoft.Windows.Vision.TextRecognition/0.2.126": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.Management": "0.2.126"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Vision.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Vision.Projection.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Windows.Vision.TextRecognition.props": {},
+          "buildTransitive/Microsoft.Windows.Vision.TextRecognition.targets": {}
+        }
+      },
+      "AvalonEdit/6.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
     }
   },
   "libraries": {
@@ -301,8 +361,20 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
             "name": "Microsoft.Windows.SDK.NET.Ref",
             "version": "[10.0.22621.31, 10.0.22621.31]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.27, 6.0.27]"
           }
         ],
         "frameworkReferences": {
@@ -317,6 +389,11 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }

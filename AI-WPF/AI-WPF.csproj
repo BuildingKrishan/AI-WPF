@@ -5,7 +5,8 @@
     <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
     <RootNamespace>AI_WPF</RootNamespace>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+	  <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+	  <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>

@@ -29,6 +29,9 @@ namespace AI_WPF
         public TextView()
         {
             InitializeComponent();
+           // textEditor.TextArea.TextEntering += textEditor_TextArea_TextEntering;
+           // textEditor.TextArea.TextEntered += textEditor_TextArea_TextEntered;
+            SearchPanel.Install(textEditor);
         }
 
     }
