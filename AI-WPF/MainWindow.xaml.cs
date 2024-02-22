@@ -10,6 +10,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Windows.Vision;
 using Microsoft.Windows.Imaging;
+using AIFabricTest;
 
 namespace AI_WPF
 {
@@ -21,6 +22,8 @@ namespace AI_WPF
         public MainWindow()
         {
             InitializeComponent();
+            Utils.LoadAIFabric();
+
         }
 
         private void Search_Text_Button_Click(object sender, RoutedEventArgs e)

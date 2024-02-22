@@ -13,11 +13,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.Imaging" Version="0.2.126" />
-    <PackageReference Include="Microsoft.Windows.Vision.TextRecognition" Version="0.2.126" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="E:\WPF apps\TextEditor\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
+    <ProjectReference Include="..\..\aifabric\test\msix\AIFabricTest\AIFabricTest.csproj" />
+    <ProjectReference Include="..\..\AvalonEdit\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
   </ItemGroup>
 
 </Project>

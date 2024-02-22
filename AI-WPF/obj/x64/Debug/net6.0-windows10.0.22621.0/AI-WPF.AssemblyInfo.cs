@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AI-WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1abdda8626c173ef01ffb3aa9cb3a6cef8f3080e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AI-WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AI-WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.windows.management\0.2.126\buildTransitive\Microsoft.Windows.Management.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.management\0.2.126\buildTransitive\Microsoft.Windows.Management.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.windows.vision.textrecognition\0.2.126\buildTransitive\Microsoft.Windows.Vision.TextRecognition.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.vision.textrecognition\0.2.126\buildTransitive\Microsoft.Windows.Vision.TextRecognition.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.windows.imaging\0.2.126\buildTransitive\Microsoft.Windows.Imaging.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.imaging\0.2.126\buildTransitive\Microsoft.Windows.Imaging.targets')" />
+    <Import Project="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\microsoft.windows.sdk.buildtools\10.0.22621.756\buildTransitive\Microsoft.Windows.SDK.BuildTools.targets" Condition="Exists('C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\microsoft.windows.sdk.buildtools\10.0.22621.756\buildTransitive\Microsoft.Windows.SDK.BuildTools.targets')" />
+    <Import Project="$(NuGetPackageRoot)\microsoft.windowsappsdk\1.5.240207000\buildTransitive\Microsoft.WindowsAppSDK.targets" Condition="Exists('$(NuGetPackageRoot)\microsoft.windowsappsdk\1.5.240207000\buildTransitive\Microsoft.WindowsAppSDK.targets')" />
+    <Import Project="$(NuGetPackageRoot)\microsoft.windows.management\0.2.126\buildTransitive\Microsoft.Windows.Management.targets" Condition="Exists('$(NuGetPackageRoot)\microsoft.windows.management\0.2.126\buildTransitive\Microsoft.Windows.Management.targets')" />
+    <Import Project="$(NuGetPackageRoot)\microsoft.windows.imaging\0.2.126\buildTransitive\Microsoft.Windows.Imaging.targets" Condition="Exists('$(NuGetPackageRoot)\microsoft.windows.imaging\0.2.126\buildTransitive\Microsoft.Windows.Imaging.targets')" />
+    <Import Project="$(NuGetPackageRoot)\microsoft.windows.aifabric\0.3.213-preview\buildTransitive\Microsoft.Windows.AIFabric.targets" Condition="Exists('$(NuGetPackageRoot)\microsoft.windows.aifabric\0.3.213-preview\buildTransitive\Microsoft.Windows.AIFabric.targets')" />
   </ImportGroup>
 </Project>

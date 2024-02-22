@@ -1,4 +1,5 @@
-﻿using System;
+﻿//extern alias recog;
+using System;
 using System.Drawing;
 using System.Windows;
 using System.Windows.Controls;
@@ -6,7 +7,7 @@ using System.Windows.Forms;
 using System.Windows.Media.Imaging;
 using Microsoft.Win32;
 using Windows.Storage;
-
+using AIFabricTest;
 namespace AI_WPF
 {
     /// <summary>
@@ -37,10 +38,12 @@ namespace AI_WPF
                     var stream = await file.OpenAsync(FileAccessMode.Read);
                     var decoder = await Windows.Graphics.Imaging.BitmapDecoder.CreateAsync(stream);
                     var bitmap = await decoder.GetSoftwareBitmapAsync();
-
-                    var textRecognizer = new Microsoft.Windows.Vision.TextRecognition.TextRecognizer();
+                    Utils.LoadAIFabric();
+                    var recognizedText = await Utils.GetImageTextOCR(bitmap);
+                    /*
+                    var textRecognizer = new recog::Microsoft.Windows.Vision.TextRecognition.TextRecognizer();
                     var recognizedText =  await textRecognizer.RecognizeTextFromImageAsync(bitmap, null);
-                    for (int i = 0; i < recognizedText.Lines.Count(); i++)
+                    */for (int i = 0; i < recognizedText.Lines.Count(); i++)
                     {
                         var line = recognizedText.Lines[i];
                         string message = $"Line {i}: {line.Text}";

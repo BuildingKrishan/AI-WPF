@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "BFFYIfey60IeXp7OgqNUAEo2hk/AUNqagGyYX57BT9als4e2tTGMHHShAHxqWzBOTqIGJKttD9gUALmamUefrA==",
+  "dgSpecHash": "16lwJuyXWJ1fAjgAOXaOSnDUGAJZcc65oA64DD8O3fMt7hPf56aW1KsDNWLacPkUqBdqQqUcbeZ2pKUGE+SRgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kribansal.REDMOND\\source\\repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
+  "projectFilePath": "C:\\Users\\kribansal\\source\\repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.imaging\\0.2.126\\microsoft.windows.imaging.0.2.126.nupkg.sha512",
-    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.management\\0.2.126\\microsoft.windows.management.0.2.126.nupkg.sha512",
-    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.vision.textrecognition\\0.2.126\\microsoft.windows.vision.textrecognition.0.2.126.nupkg.sha512",
-    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512",
-    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.27\\microsoft.aspnetcore.app.runtime.win-x64.6.0.27.nupkg.sha512",
-    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.27\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.27.nupkg.sha512",
-    "C:\\Users\\kribansal.REDMOND\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.27\\microsoft.netcore.app.runtime.win-x64.6.0.27.nupkg.sha512"
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.windows.aifabric\\0.3.213-preview\\microsoft.windows.aifabric.0.3.213-preview.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.windows.imaging\\0.2.126\\microsoft.windows.imaging.0.2.126.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.windows.management\\0.2.126\\microsoft.windows.management.0.2.126.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.windowsappsdk\\1.5.240207000\\microsoft.windowsappsdk.1.5.240207000.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.27\\microsoft.aspnetcore.app.runtime.win-x64.6.0.27.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.27\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.27.nupkg.sha512",
+    "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.27\\microsoft.netcore.app.runtime.win-x64.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }
