@@ -6,102 +6,31 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Microsoft.Windows.AIFabric/0.3.213-preview": {
+      "Microsoft.Windows.AIFabric/0.3.224-preview": {
         "runtime": {
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {
-            "assemblyVersion": "0.3.213.47401",
-            "fileVersion": "0.3.213.47401"
+            "assemblyVersion": "0.3.224.21302",
+            "fileVersion": "0.3.224.21302"
           },
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Private.Workloads.SessionHost.Projection.dll": {
-            "assemblyVersion": "0.3.213.47401",
-            "fileVersion": "0.3.213.47401"
+            "assemblyVersion": "0.3.224.21302",
+            "fileVersion": "0.3.224.21302"
           },
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Private.Workloads.SessionManager.Projection.dll": {
-            "assemblyVersion": "0.3.213.47401",
-            "fileVersion": "0.3.213.47401"
+            "assemblyVersion": "0.3.224.21302",
+            "fileVersion": "0.3.224.21302"
           },
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.SemanticSearch.Projection.dll": {
-            "assemblyVersion": "0.3.213.47401",
-            "fileVersion": "0.3.213.47401"
+            "assemblyVersion": "0.3.224.21302",
+            "fileVersion": "0.3.224.21302"
           },
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Vision.Projection.dll": {
-            "assemblyVersion": "0.3.213.47401",
-            "fileVersion": "0.3.213.47401"
+            "assemblyVersion": "0.3.224.21302",
+            "fileVersion": "0.3.224.21302"
           },
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Workloads.Projection.dll": {
-            "assemblyVersion": "0.3.213.47401",
-            "fileVersion": "0.3.213.47401"
-          }
-        }
-      },
-      "Microsoft.Windows.Imaging/0.2.126": {
-        "dependencies": {
-          "Microsoft.Windows.Management": "0.2.126"
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {
-            "assemblyVersion": "0.2.126.33326",
-            "fileVersion": "0.2.126.33326"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win10-arm64/native/Microsoft.Windows.Imaging.dll": {
-            "rid": "win10-arm64",
-            "assetType": "native",
-            "fileVersion": "0.2.126.33326"
-          },
-          "runtimes/win10-arm64/native/magerapi.dll": {
-            "rid": "win10-arm64",
-            "assetType": "native",
-            "fileVersion": "2.0.3.42626"
-          },
-          "runtimes/win10-arm64/native/parapi.dll": {
-            "rid": "win10-arm64",
-            "assetType": "native",
-            "fileVersion": "2.0.3.42626"
-          },
-          "runtimes/win10-arm64/native/ps-onnxruntime.dll": {
-            "rid": "win10-arm64",
-            "assetType": "native",
-            "fileVersion": "1.17.23.1211"
-          },
-          "runtimes/win10-arm64/native/segapi.dll": {
-            "rid": "win10-arm64",
-            "assetType": "native",
-            "fileVersion": "2.0.3.42626"
-          },
-          "runtimes/win10-x64/native/Microsoft.Windows.Imaging.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "0.2.126.33326"
-          },
-          "runtimes/win10-x64/native/magerapi.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "2.0.3.42626"
-          },
-          "runtimes/win10-x64/native/parapi.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "2.0.3.42626"
-          },
-          "runtimes/win10-x64/native/ps-onnxruntime.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "1.17.23.1211"
-          },
-          "runtimes/win10-x64/native/segapi.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "2.0.3.42626"
-          }
-        }
-      },
-      "Microsoft.Windows.Management/0.2.126": {
-        "runtime": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {
-            "assemblyVersion": "0.2.126.33326",
-            "fileVersion": "0.2.126.33326"
+            "assemblyVersion": "0.3.224.21302",
+            "fileVersion": "0.3.224.21302"
           }
         }
       },
@@ -265,26 +194,12 @@
     }
   },
   "libraries": {
-    "Microsoft.Windows.AIFabric/0.3.213-preview": {
+    "Microsoft.Windows.AIFabric/0.3.224-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x2Xmhl+6RlSEiTaxSja2e0mQCQ+RHhjZ2d/6BFyTZ4rBofj33tjSoV1W9Vaj/v4dBKZIAo7grSekpFJgoF9AUg==",
-      "path": "microsoft.windows.aifabric/0.3.213-preview",
-      "hashPath": "microsoft.windows.aifabric.0.3.213-preview.nupkg.sha512"
-    },
-    "Microsoft.Windows.Imaging/0.2.126": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cwpWQxpl3Wk1MRif2jzG4efLiyWWMGWKXDkfNmAAktpus3cWxLSE0hBT9iNQ6XbE1dJ8XA+gfKogalbHDbVWzA==",
-      "path": "microsoft.windows.imaging/0.2.126",
-      "hashPath": "microsoft.windows.imaging.0.2.126.nupkg.sha512"
-    },
-    "Microsoft.Windows.Management/0.2.126": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xLhH7jisgzE7QEoMTGlCd01uG+KzGwXoTPpzAPWfZy6I6HjjyMoW6BsnLTPT2uDwueJxHW+iSSKIC7c40RcCYg==",
-      "path": "microsoft.windows.management/0.2.126",
-      "hashPath": "microsoft.windows.management.0.2.126.nupkg.sha512"
+      "sha512": "sha512-2BbhLvjxkPuPUmjNkWieGYJs+MJr803LadYJ4n3CI5LFyw00k9LihWAk8kRVtJnEOZvY6DU+R8ZyGbTeesCKjg==",
+      "path": "microsoft.windows.aifabric/0.3.224-preview",
+      "hashPath": "microsoft.windows.aifabric.0.3.224-preview.nupkg.sha512"
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
       "type": "package",

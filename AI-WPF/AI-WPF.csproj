@@ -8,15 +8,11 @@
 	  <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
 	  <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
-    <Platforms>AnyCPU;x64</Platforms>
+    <Platforms>x64</Platforms>
+	<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.Imaging" Version="0.2.126" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\aifabric\test\msix\AIFabricTest\AIFabricTest.csproj" />
     <ProjectReference Include="..\..\AvalonEdit\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
   </ItemGroup>
 

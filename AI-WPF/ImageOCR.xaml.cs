@@ -20,7 +20,6 @@ namespace AI_WPF
             InitializeComponent();
         }
 
-
         async private void UploadImage_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog openFileDialog = new Microsoft.Win32.OpenFileDialog();
@@ -40,15 +39,18 @@ namespace AI_WPF
                     var bitmap = await decoder.GetSoftwareBitmapAsync();
                     Utils.LoadAIFabric();
                     var recognizedText = await Utils.GetImageTextOCR(bitmap);
-                    /*
-                    var textRecognizer = new recog::Microsoft.Windows.Vision.TextRecognition.TextRecognizer();
-                    var recognizedText =  await textRecognizer.RecognizeTextFromImageAsync(bitmap, null);
-                    */for (int i = 0; i < recognizedText.Lines.Count(); i++)
+                    /*                    *//*
+                                        var textRecognizer = new recog::Microsoft.Windows.Vision.TextRecognition.TextRecognizer();
+                                        var recognizedText =  await textRecognizer.RecognizeTextFromImageAsync(bitmap, null);
+                                        */
+                    OutputBox.Text = "S No.     Text" + Environment.NewLine;
+                    for (int i = 0; i < recognizedText.Lines.Count(); i++)
                     {
                         var line = recognizedText.Lines[i];
-                        string message = $"Line {i}: {line.Text}";
+                        string message = $"  {i}.       {line.Text}";
                         OutputBox.Text += Environment.NewLine + message;
                     }
+
                     //OutputBox.Text += message + Environment.NewLine;
 
                 }

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0-windows10.0.22621": {
-      "Microsoft.Windows.AIFabric/0.3.213-preview": {
+      "Microsoft.Windows.AIFabric/0.3.224-preview": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {},
@@ -23,77 +23,6 @@
         "build": {
           "buildTransitive/Microsoft.Windows.AIFabric.props": {},
           "buildTransitive/Microsoft.Windows.AIFabric.targets": {}
-        }
-      },
-      "Microsoft.Windows.Imaging/0.2.126": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Windows.Management": "0.2.126"
-        },
-        "compile": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.Windows.Imaging.props": {},
-          "buildTransitive/Microsoft.Windows.Imaging.targets": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win10-arm64/native/Microsoft.Windows.Imaging.dll": {
-            "assetType": "native",
-            "rid": "win10-arm64"
-          },
-          "runtimes/win10-arm64/native/magerapi.dll": {
-            "assetType": "native",
-            "rid": "win10-arm64"
-          },
-          "runtimes/win10-arm64/native/parapi.dll": {
-            "assetType": "native",
-            "rid": "win10-arm64"
-          },
-          "runtimes/win10-arm64/native/ps-onnxruntime.dll": {
-            "assetType": "native",
-            "rid": "win10-arm64"
-          },
-          "runtimes/win10-arm64/native/segapi.dll": {
-            "assetType": "native",
-            "rid": "win10-arm64"
-          },
-          "runtimes/win10-x64/native/Microsoft.Windows.Imaging.dll": {
-            "assetType": "native",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x64/native/magerapi.dll": {
-            "assetType": "native",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x64/native/parapi.dll": {
-            "assetType": "native",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x64/native/ps-onnxruntime.dll": {
-            "assetType": "native",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x64/native/segapi.dll": {
-            "assetType": "native",
-            "rid": "win10-x64"
-          }
-        }
-      },
-      "Microsoft.Windows.Management/0.2.126": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.Windows.Management.props": {},
-          "buildTransitive/Microsoft.Windows.Management.targets": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
@@ -287,6 +216,10 @@
       "AvalonEdit/6.3.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AIFabricTest": "1.0.0",
+          "Microsoft.Windows.AIFabric": "0.3.224-preview"
+        },
         "compile": {
           "bin/placeholder/AvalonEdit.dll": {}
         },
@@ -299,7 +232,7 @@
       }
     },
     "net6.0-windows10.0.22621/win-x64": {
-      "Microsoft.Windows.AIFabric/0.3.213-preview": {
+      "Microsoft.Windows.AIFabric/0.3.224-preview": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {},
@@ -320,35 +253,6 @@
         "build": {
           "buildTransitive/Microsoft.Windows.AIFabric.props": {},
           "buildTransitive/Microsoft.Windows.AIFabric.targets": {}
-        }
-      },
-      "Microsoft.Windows.Imaging/0.2.126": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Windows.Management": "0.2.126"
-        },
-        "compile": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.Windows.Imaging.props": {},
-          "buildTransitive/Microsoft.Windows.Imaging.targets": {}
-        }
-      },
-      "Microsoft.Windows.Management/0.2.126": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.Windows.Management.props": {},
-          "buildTransitive/Microsoft.Windows.Management.targets": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
@@ -519,6 +423,10 @@
       "AvalonEdit/6.3.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AIFabricTest": "1.0.0",
+          "Microsoft.Windows.AIFabric": "0.3.224-preview"
+        },
         "compile": {
           "bin/placeholder/AvalonEdit.dll": {}
         },
@@ -532,10 +440,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Windows.AIFabric/0.3.213-preview": {
-      "sha512": "x2Xmhl+6RlSEiTaxSja2e0mQCQ+RHhjZ2d/6BFyTZ4rBofj33tjSoV1W9Vaj/v4dBKZIAo7grSekpFJgoF9AUg==",
+    "Microsoft.Windows.AIFabric/0.3.224-preview": {
+      "sha512": "2BbhLvjxkPuPUmjNkWieGYJs+MJr803LadYJ4n3CI5LFyw00k9LihWAk8kRVtJnEOZvY6DU+R8ZyGbTeesCKjg==",
       "type": "package",
-      "path": "microsoft.windows.aifabric/0.3.213-preview",
+      "path": "microsoft.windows.aifabric/0.3.224-preview",
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Windows.AIFabric.AppXReference.props",
@@ -554,65 +462,12 @@
         "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.SemanticSearch.Projection.dll",
         "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Vision.Projection.dll",
         "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Workloads.Projection.dll",
-        "microsoft.windows.aifabric.0.3.213-preview.nupkg.sha512",
+        "microsoft.windows.aifabric.0.3.224-preview.nupkg.sha512",
         "microsoft.windows.aifabric.nuspec",
         "winmd/Microsoft.Windows.Imaging.winmd",
         "winmd/Microsoft.Windows.SemanticSearch.winmd",
         "winmd/Microsoft.Windows.Vision.winmd",
         "winmd/Microsoft.Windows.Workloads.winmd"
-      ]
-    },
-    "Microsoft.Windows.Imaging/0.2.126": {
-      "sha512": "cwpWQxpl3Wk1MRif2jzG4efLiyWWMGWKXDkfNmAAktpus3cWxLSE0hBT9iNQ6XbE1dJ8XA+gfKogalbHDbVWzA==",
-      "type": "package",
-      "path": "microsoft.windows.imaging/0.2.126",
-      "files": [
-        ".nupkg.metadata",
-        "build/Microsoft.Windows.Imaging.props",
-        "build/Microsoft.Windows.Imaging.targets",
-        "build/native/Microsoft.Windows.Imaging.props",
-        "build/native/Microsoft.Windows.Imaging.targets",
-        "buildTransitive/Microsoft.Windows.Imaging.props",
-        "buildTransitive/Microsoft.Windows.Imaging.targets",
-        "buildTransitive/native/Microsoft.Windows.Imaging.props",
-        "buildTransitive/native/Microsoft.Windows.Imaging.targets",
-        "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Imaging.Projection.dll",
-        "microsoft.windows.imaging.0.2.126.nupkg.sha512",
-        "microsoft.windows.imaging.nuspec",
-        "models/mager.onnxe",
-        "models/par.onnxe",
-        "models/seg.onnxe",
-        "runtimes/win10-arm64/native/Microsoft.Windows.Imaging.dll",
-        "runtimes/win10-arm64/native/magerapi.dll",
-        "runtimes/win10-arm64/native/parapi.dll",
-        "runtimes/win10-arm64/native/ps-onnxruntime.dll",
-        "runtimes/win10-arm64/native/segapi.dll",
-        "runtimes/win10-x64/native/Microsoft.Windows.Imaging.dll",
-        "runtimes/win10-x64/native/magerapi.dll",
-        "runtimes/win10-x64/native/parapi.dll",
-        "runtimes/win10-x64/native/ps-onnxruntime.dll",
-        "runtimes/win10-x64/native/segapi.dll",
-        "winmd/Microsoft.Windows.Imaging.winmd"
-      ]
-    },
-    "Microsoft.Windows.Management/0.2.126": {
-      "sha512": "xLhH7jisgzE7QEoMTGlCd01uG+KzGwXoTPpzAPWfZy6I6HjjyMoW6BsnLTPT2uDwueJxHW+iSSKIC7c40RcCYg==",
-      "type": "package",
-      "path": "microsoft.windows.management/0.2.126",
-      "files": [
-        ".nupkg.metadata",
-        "build/Microsoft.Windows.Management.props",
-        "build/Microsoft.Windows.Management.targets",
-        "build/native/Microsoft.Windows.Management.props",
-        "build/native/Microsoft.Windows.Management.targets",
-        "buildTransitive/Microsoft.Windows.Management.props",
-        "buildTransitive/Microsoft.Windows.Management.targets",
-        "buildTransitive/native/Microsoft.Windows.Management.props",
-        "buildTransitive/native/Microsoft.Windows.Management.targets",
-        "lib/net6.0-windows10.0.22621.0/Microsoft.Windows.Management.Projection.dll",
-        "microsoft.windows.management.0.2.126.nupkg.sha512",
-        "microsoft.windows.management.nuspec",
-        "winmd/Microsoft.Windows.Management.winmd"
       ]
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
@@ -1551,9 +1406,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows10.0.22621": [
-      "AIFabricTest >= 1.0.0",
-      "AvalonEdit >= 6.3.0",
-      "Microsoft.Windows.Imaging >= 0.2.126"
+      "AvalonEdit >= 6.3.0"
     ]
   },
   "packageFolders": {
@@ -1563,11 +1416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kribansal\\source\\repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
+      "projectUniqueName": "C:\\Users\\kribansal\\Source\\Repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
       "projectName": "AI-WPF",
-      "projectPath": "C:\\Users\\kribansal\\source\\repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
+      "projectPath": "C:\\Users\\kribansal\\Source\\Repos\\AI-WPF\\AI-WPF\\AI-WPF.csproj",
       "packagesPath": "C:\\Users\\kribansal\\Source\\Repos\\aifabric\\packages",
-      "outputPath": "C:\\Users\\kribansal\\source\\repos\\AI-WPF\\AI-WPF\\obj\\",
+      "outputPath": "C:\\Users\\kribansal\\Source\\Repos\\AI-WPF\\AI-WPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1589,11 +1442,8 @@
         "net6.0-windows10.0.22621": {
           "targetAlias": "net6.0-windows10.0.22621.0",
           "projectReferences": {
-            "C:\\Users\\kribansal\\source\\repos\\aifabric\\test\\msix\\AIFabricTest\\AIFabricTest.csproj": {
-              "projectPath": "C:\\Users\\kribansal\\source\\repos\\aifabric\\test\\msix\\AIFabricTest\\AIFabricTest.csproj"
-            },
-            "C:\\Users\\kribansal\\source\\repos\\AvalonEdit\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj": {
-              "projectPath": "C:\\Users\\kribansal\\source\\repos\\AvalonEdit\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj"
+            "C:\\Users\\kribansal\\Source\\Repos\\AvalonEdit\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj": {
+              "projectPath": "C:\\Users\\kribansal\\Source\\Repos\\AvalonEdit\\ICSharpCode.AvalonEdit\\ICSharpCode.AvalonEdit.csproj"
             }
           }
         }
@@ -1612,12 +1462,6 @@
     "frameworks": {
       "net6.0-windows10.0.22621": {
         "targetAlias": "net6.0-windows10.0.22621.0",
-        "dependencies": {
-          "Microsoft.Windows.Imaging": {
-            "target": "Package",
-            "version": "[0.2.126, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

@@ -28,7 +28,7 @@
                     </Grid.RowDefinitions>
                     <Button Content="Text Search" Grid.Row="0" Margin="0,30,0,0" Height="30" Width=" 80" HorizontalAlignment="Left" Tag="Text Search" Click="Search_Text_Button_Click"/>
                     <Button Content="OCR" Grid.Row="1"  Height="30" Width=" 80" HorizontalAlignment="Left" Click="ImageOCR_Click"/>
-                    <Button Content="File Custer" Grid.Row="2"  Height="30" Width=" 80" HorizontalAlignment="Left"/>
+                    <!--<Button Content="File Custer" Grid.Row="2"  Height="30" Width=" 80" HorizontalAlignment="Left"/>-->
                 </Grid>
                 <Frame x:Name="frame" Grid.Column="1"/>
             </Grid>

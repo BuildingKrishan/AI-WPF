@@ -8,22 +8,30 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ImageOCR">
 
+
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <!-- Image display area -->
-        <Image Name="imgDisplay" Width="250" Grid.Row="0" Grid.Column="0" Height="250" Margin="30,50,30,30" />
+        <Image Name="imgDisplay" Grid.Row="0" Grid.Column="0" Margin="30,50,30,30" />
 
         <!-- Button to upload image -->
-        <Button Content="Upload Image" Grid.Row="1" Grid.Column="0" Click="UploadImage_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <Button Content="Upload Image" Margin="60" MinWidth="120" MinHeight="25" Grid.Row="1" Grid.Column="0" Click="UploadImage_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 
         <!-- Optional: Add other UI elements as needed -->
-        <TextBox Name="OutputBox" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Text="Extracted Text" FontSize="12" FontWeight="Bold" Margin="20,20,20,20" />
+        <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Extracted Text" Grid.Row="0" FontSize="25" FontWeight="Bold" Margin="50,20,20,0" Height="Auto" />
+            <TextBox Name="OutputBox" Grid.Row="1" VerticalAlignment="Stretch" ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Visible" Text="Upload an Image." FontSize="16" FontWeight="DemiBold" Margin="40" />
+        </Grid>
     </Grid>
 </Page>

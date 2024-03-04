@@ -12,16 +12,18 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
+            <!--<RowDefinition Height="Auto"/>-->
         </Grid.RowDefinitions>
-        <avalonEdit:TextEditor Margin="20,20,20,0"
+        <avalonEdit:TextEditor Margin="40"
 				Name="textEditor"
 				FontFamily="Consolas"
 				FontSize="10pt"
-				SyntaxHighlighting="C#"
+                ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                 Grid.Row="0"
-			>Welcome to AvalonEdit!
+			>Welcome to SPICE IDC. Hello how are you doing. My name is krishan bansal.
         </avalonEdit:TextEditor>
-            <TextBox Text="Search Text ..." FontSize="14" Margin="30,50,0,30" Grid.Row="1" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>
+        <!--SyntaxHighlighting="C#"-->
+
+        <!--<TextBox Text="Search Text ..." FontSize="14" Margin="30,50,0,30" Grid.Row="1" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>-->
     </Grid>
 </Page>

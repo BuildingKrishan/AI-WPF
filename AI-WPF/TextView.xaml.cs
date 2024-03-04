@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-using AIFabricTest;
+//using AIFabricTest;
 using ICSharpCode.AvalonEdit.CodeCompletion;
 using ICSharpCode.AvalonEdit.Folding;
 using ICSharpCode.AvalonEdit.Highlighting;
@@ -37,11 +37,11 @@ namespace AI_WPF
             string[] sentences = textEditor.Text.Split('.');
            
 
-            Utils.CreateTextEmbedding(textEditor.Text);
+           // Utils.CreateTextEmbedding(textEditor.Text);
             SearchPanel.Install(textEditor);
         }
 
-        public void PerformFirstSearch()
+        /*public void PerformFirstSearch()
         {
             string[] sentences = textEditor.Text.Split('.');
             EmbeddingVector[] embeddingVectors = new EmbeddingVector[sentences.Length];
@@ -56,7 +56,7 @@ namespace AI_WPF
 
 
             
-        }
+        }*/
 
     }
 }
